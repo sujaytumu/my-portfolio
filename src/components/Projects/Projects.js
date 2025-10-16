@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import foodapp from "../../Assets/Projects/foodapp.jpg";
 import chatapp from "../../Assets/Projects/chatapp.jpg";
-//import suicide from "../../Assets/Projects/suicide.png";
+import collegeapp from "../../Assets/Projects/collegeapp.jpeg";
 
 function Projects() {
   return (
@@ -41,16 +41,15 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatapp}
+              imgPath={collegeapp}
               isBlog={false}
-              title="Real Time Chat-App"
-              description="A full-stack messaging platform enabling instant communication with online/offline status, theme toggle, and seamless chat experience."
-              ghLink="https://github.com/sujaytumu/Chat-App"
-              demoLink="https://chat-app-jjcg.onrender.com/"
+              title="College Web App"
+              description="A web application to manage college events, courses, and student information efficiently."
+              ghLink="https://github.com/sujaytumu/College-Web-App"
             />
-          </Col> */}
+          </Col>
       
         </Row>
       </Container>
