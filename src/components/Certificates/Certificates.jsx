@@ -1,8 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import CertificateCard from "./CertificateCard"; // create a card component if needed
-import certificateImg from "../../Assets/certificate.jpg"; // your certificate image
+import certificateImg from "../../Assets/certificate1.jpeg"; // your certificate image
 import certificateImg2 from "../../Assets/certificate2.jpg"; // your certificate image
+import certificateImg3 from "../../Assets/certificate3.jpg"; // your certificate image
 
 function Certificates() {
   return (
@@ -31,7 +32,18 @@ function Certificates() {
             />
           </Col>
 
+
+          <Col md={4} className="certificate-card">
+            <CertificateCard
+              imgPath={certificateImg3}
+              title="Git and GitHub Course"
+              description="Completed a comprehensive course on Git and GitHub for version control and collaboration."
+              link="https://ude.my/UC-be5af5a7-38a8-4bfe-b091-9c0d298ff84e"
+            />
+          </Col>
+
           {/* Add more certificates here */}
+          
         </Row>
       </Container>
     </Container>
