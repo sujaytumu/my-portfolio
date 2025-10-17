@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import CertificateCard from "./CertificateCard"; // create a card component if needed
-import certificateImg from "../../Assets/certificate1.jpeg"; // your certificate image
+import certificateImg1 from "../../Assets/certificate1.jpeg"; // your certificate image
 import certificateImg2 from "../../Assets/certificate2.jpg"; // your certificate image
 import certificateImg3 from "../../Assets/certificate3.jpg"; // your certificate image
 
@@ -16,22 +16,22 @@ function Certificates() {
           
           <Col md={4} className="certificate-card">
             <CertificateCard
-              imgPath={certificateImg}
+              imgPath={certificateImg1}
+              title="Web Development Course"
+              description="Completed a hands-on Web Development course covering HTML, CSS, JavaScript, and responsive design."
+              link="https://ude.my/UC-b7114209-f9c5-4266-9953-2d4ae59f561a"
+            />
+          </Col>
+          
+          
+          <Col md={4} className="certificate-card">
+            <CertificateCard
+              imgPath={certificateImg2}
               title="JavaScript Course"
               description="Completed a hands-on JavaScript course covering core concepts and DOM manipulation."
               link="https://ude.my/UC-a9ff8e1b-a551-42b4-bbe7-4e0e4d44811f"
             />
           </Col>
-
-          <Col md={4} className="certificate-card">
-            <CertificateCard
-              imgPath={certificateImg2}
-              title="Git and GitHub Course"
-              description="Completed a comprehensive course on Git and GitHub for version control and collaboration."
-              link="https://ude.my/UC-be5af5a7-38a8-4bfe-b091-9c0d298ff84e"
-            />
-          </Col>
-
 
           <Col md={4} className="certificate-card">
             <CertificateCard
@@ -43,7 +43,6 @@ function Certificates() {
           </Col>
 
           {/* Add more certificates here */}
-          
         </Row>
       </Container>
     </Container>
