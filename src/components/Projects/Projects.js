@@ -48,6 +48,7 @@ function Projects() {
               title="Nomads-Travel App"
               description="A web application to manage travel itineraries, bookings, and user profiles for nomadic travelers."
               ghLink="https://github.com/sujaytumu/nomads"
+              demoLink="https://frontend-production-a5e76.up.railway.app/"
             />
           </Col>
       
