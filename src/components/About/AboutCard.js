@@ -12,12 +12,20 @@ function AboutCard() {
             at <span className="purple"> IIIT Nagpur.</span>
             <br />
             <br />
+
             
-            I have gained hands-on experience in building scalable applications using <span className="purple"> MERN Stack </span>
+            
+            I have gained hands-on experience in building scalable applications using <span className="purple"> Java </span> and <span className="purple"> MERN Stack </span>
             and working with cloud tools and actively practice problem-solving on <span className="purple"> LeetCode </span> 
             and GeeksforGeeks, strengthening core concepts.
             <br />
             <br />
+
+            I actively practice <span className="purple">Data Structures and Algorithms</span> on platforms such as <span className="purple">LeetCode</span> and GeeksforGeeks, strengthening my problem-solving ability and understanding of core computer science concepts.
+            <br />
+            <br />
+
+            
             Seeking opportunities as a <span className="purple"> Software Development Engineer / Full-Stack Developer </span>
               to contribute to impactful projects and drive innovative solutions.
             <br />
